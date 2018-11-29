@@ -48,6 +48,7 @@
   (c-set-offset 'access-label '/) ;; move public/protected etc half back
   (c-set-offset 'statement-case-intro '*) ;; indent case statements by half
   (c-set-offset 'case-label '*)
+  (c-set-offset 'inline-open '*)
   ;; Turns on (simulates) auto indentation for all cc-modes
   (define-key c-mode-base-map "\C-m" 'newline-and-indent)
   

@@ -4,6 +4,8 @@
 (defun dn-slightly() (interactive) (scroll-down 3))
 (global-set-key [mouse-4] 'dn-slightly)
 
+;; do not show the initial welcome buffer
+(setq inhibit-startup-screen t)
 
 ;; when selected, typing anything replaces the selection
 (delete-selection-mode 1)
